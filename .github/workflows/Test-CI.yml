@@ -23,6 +23,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install apache2
+          echo "Hello World"
 
       - name: curl
         run: curl -L http://www.google.com      
