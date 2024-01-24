@@ -1,0 +1,29 @@
+
+name: Test-CI
+
+on:
+
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+
+jobs: 
+  test:
+    name: test 
+
+    runs-on: ubuntu-latest
+    
+    steps:
+
+      - name: install http
+        run: apt-get install http
+
+      - name: curl
+        run: curl 127.0.0.1
+
+      
+
