@@ -25,7 +25,5 @@ jobs:
           sudo apt install apache2
 
       - name: curl
-        run: curl 127.0.0.1
-
-      
+        run: curl -L http://www.google.com      
 
