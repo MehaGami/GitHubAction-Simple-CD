@@ -20,7 +20,9 @@ jobs:
     steps:
 
       - name: install httpd
-        run: sudo apt-get install httpd
+        run: |
+          sudo apt update
+          sudo apt install apache2
 
       - name: curl
         run: curl 127.0.0.1
