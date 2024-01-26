@@ -1,0 +1,179 @@
+body {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  background: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.head1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+
+  color: #000000;
+}
+
+.head3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #000000;
+
+  margin-bottom: 8px;
+}
+.head4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+  margin-bottom: 12px;
+}
+.comp-head4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #6096ff;
+  margin-bottom: 12px;
+}
+
+.head5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+  margin-bottom: 8px;
+}
+.ahead {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161d2a;
+}
+.promt {
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 50px;
+
+  color: #000000;
+}
+.lpromt {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #595959;
+  list-style: disc;
+}
+.date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+.company {
+  color: #6096ff;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  width: 1200px;
+  margin: auto;
+}
+
+.main-content {
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 40px;
+}
+.about-me {
+  margin-bottom: 40px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.product {
+  margin-bottom: 40px;
+}
+
+.sidebar {
+  background: #dfeeff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.apromt {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #161d2a;
+  list-style: disc;
+}
+.scontent {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: blue;
+}
+
+.list {
+  padding-left: 27px;
+}
+.flist {
+  padding-left: 27px;
+}
+.dlist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-flow: column;
+
+  color: #000000;
+  list-style: decimal;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+.smcontainer {
+  margin-bottom: 8px;
+}
+.tech {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.photo {
+  display: block;
+  width: 120px;
+  height: 70px;
+}
